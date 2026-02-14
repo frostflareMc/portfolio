@@ -136,8 +136,8 @@ const experiences: TExperience[] = [
     ],
   },
    {
-    title: "Pokemon Showdown Mod(Typescript)",
-    companyName: "Not a company(a client)",
+    title: "Pokemon Showdown Mod",
+    companyName: "Not a company",
     icon: starbucks,
     iconBg: "#383E56",
     date: ":)",
@@ -159,18 +159,18 @@ const experiences: TExperience[] = [
   },
      {
     title: "Roblox game website",
-    companyName: "ToyViller",
+    companyName: "ToyVille",
     icon: starbucks,
     iconBg: "#383E56",
     date: ":)",
     points: [
-      "Developing a roblox game website.preview: toyville.akshx.com",
+      "Developing a roblox game website",
       
     ],
   },
     {
     title: "Portfolio",
-    companyName: "Not a company",
+    companyName: "-",
     icon: starbucks,
     iconBg: "#383E56",
     date: ":)",
@@ -182,7 +182,7 @@ const experiences: TExperience[] = [
 
       {
     title: "Discord marketplace posting+moderation bot",
-    companyName: "Not a company",
+    companyName: "-",
     icon: starbucks,
     iconBg: "#383E56",
     date: ":)",
@@ -325,33 +325,16 @@ const projects: TProject[] = [
       },
       {
         name: ":P",
-        color: "pink-text-gradient",
+        color: "pink-text-gradient,
       },
-    ],
+      ],
     image: smiley,
-    sourceCodeLink: "#",
+    sourceCodeLink: #,
   },
-  {
-    name: "PSATLingo",
-    description:
-      "I made a app using node.js,next.js a app(wep app) like duolingo but for the PSAT.just login nd course selection tho not the main thing",
-    tags: [
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Clerk auth",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: psat,
-    sourceCodeLink: "https://github.com/frostflareMc/lingo",
-  },
+      
+      
+      
+      
 ];
 
 export { services, technologies, experiences, testimonials, projects };
